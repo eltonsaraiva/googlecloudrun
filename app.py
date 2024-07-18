@@ -22,11 +22,11 @@ st.write(f'Você selecionou: {valor}')
 st.title('Bem-vindo ao meu app Streamlit!')
 
 # Entrada de texto para o nome do usuário
-nome = st.text_input('Digite seu nome:')
+nome3 = st.text_input('Digite seu nome:')
 
 # Botão para exibir a mensagem de boas-vindas
 if st.button('Enviar'):
-    st.write(f'Olá, {nome}! Seja bem-vindo ao nosso aplicativo.')
+    st.write(f'Olá, {nome3}! Seja bem-vindo ao nosso aplicativo.')
 
 # Título da aplicação
 st.title('Bem-vindo ao meu app Streamlit!')
